@@ -8,9 +8,16 @@ window.addEventListener('load', function() {
     	document.querySelector(".pokrivalo").style.visibility = "hidden";
 	}
 	
-	
-	
+	var dodajOpomnik = function() {
+		var naziv = document.querySelector("#naziv_opomnika").value
+		var cas = document.querySelector("#cas_opomnika").value
+		//opomnik.innerHTML += ""
+		//opomnik.removeChild(opomnik);
+		
+	}
 	document.querySelector("#prijavniGumb").addEventListener("click", potrdiPrijavo);
+	
+	document.querySelector("#dodajGumb").addEventListener("click", dodajOpomnik);
 	
 	//Posodobi opomnike
 	var posodobiOpomnike = function() {
